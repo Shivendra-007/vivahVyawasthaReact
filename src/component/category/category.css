@@ -1,0 +1,47 @@
+.main{
+    height:200px;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;   
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .row{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .card {
+    /*float: left;*/
+    max-width: 25.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+   
+  }
+  
+  .card > img {
+    margin-bottom: .75rem;
+    width: 100%;
+  }
+  
+ 
+
+  .innerDiv{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .innerDiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  
+  }
