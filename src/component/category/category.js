@@ -11,13 +11,14 @@ function Category() {
             </div>
         </div>
         </div>
+        
 
  <div class="container">
   <div class="row">
     <div class="card">
         <div className="innerDiv">
-      <img src="https://picsum.photos/300/200"/>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <img src="https://image.wedmegood.com/resized/450X/uploads/project/71945/1611698605_image1341.jpg?crop=173,33,1013,570"/>
+      <p class="card-text">Makeup</p>
       </div>
     </div>
 

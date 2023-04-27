@@ -1,0 +1,17 @@
+.navLink{
+    margin-left: 250px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.link{
+    color: black;
+    margin-left: 20px;
+
+}
+
+.link:hover{
+    border-bottom: solid red
+    
+}

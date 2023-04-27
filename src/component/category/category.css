@@ -9,7 +9,6 @@
     display: none;
   }
 
-
   .row{
     align-items: stretch;
     display: flex;
@@ -19,7 +18,6 @@
     overflow-y: hidden;
   }
   .card {
-    /*float: left;*/
     max-width: 25.333%;
     padding: .75rem;
     margin-bottom: 2rem;

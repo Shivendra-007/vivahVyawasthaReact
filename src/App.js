@@ -1,10 +1,14 @@
-
 import './App.css';
-import Home from './component/home/Home';
-
+import Navbar from './makeupcomponent/navigation/navbar'
+import Carousel from './makeupcomponent/carousel/Carousel'
+import { Data } from './makeupcomponent/makeupartist/makeupartist';
 function App() {
   return <>
-     <Home/>
+     
+     {/* <Navbar/>
+     <Carousel/> */}
+     <Data/>
+     
   </>
        
 }
