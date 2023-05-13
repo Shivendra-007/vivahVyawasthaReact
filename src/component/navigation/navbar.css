@@ -1,17 +1,40 @@
 .navLink{
-    margin-left: 250px;
+    height: 5vh;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 600; 
+    margin-left: 100px; 
+    margin-top: -5px;
     
 }
 
-.link{
+.nav-item{
+    margin-left: 40px;
+}
+
+.nav-link{
     color: black;
-    margin-left: 20px;
+  
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid red;
+    color: red;
+    
 
 }
 
-.link:hover{
-    border-bottom: solid red
+.mainDiv{
+
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 10px -20px;    
+}
+
+.dropdown-menu{
+    margin-left: -35px;
     
 }
+
+.dropdown-toggle:hover{
+    
+}
+
+
